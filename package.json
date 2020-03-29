@@ -1,0 +1,19 @@
+{
+  "name": "lambda-dynamodb-get-sample",
+  "version": "1.0.0",
+  "description": "to fetch items from dynamodb groups table",
+  "main": "index.js",
+  "scripts": {
+    "package": "zip -r dynamo-get.zip .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "dynamodb"
+  ],
+  "author": "kranthi kiran",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.432.0"
+  }
+}
